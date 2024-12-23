@@ -15,6 +15,7 @@ body {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 5px;
   /* justify-content: center;
   align-items: center; */
 }
@@ -65,6 +66,20 @@ body {
   align-items: center;
   gap: 10px;
 }
+.iconshapeone {
+  /* border: 1px solid black; */
+  width: 40px;
+  height: 40px;
+  /* padding: 5px; */
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  /* color: white; */
+  color: black;
+}
 
 .skillss-list {
   margin-top: 15px;
@@ -101,6 +116,22 @@ body {
   text-align: center;
   gap: 10px;
 }
+.edu .one h2 {
+  padding-top: 10px;
+}
+.iconshapetwo {
+  width: 40px;
+  height: 40px;
+  /* padding: 5px; */
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  /* color: white; */
+  color: black;
+}
 .edu .two {
   font-size: 1.2em;
 }
@@ -114,6 +145,22 @@ body {
   display: flex;
   text-align: center;
   gap: 10px;
+}
+.langone h2 {
+  padding-top: 10px;
+}
+.iconshapethree {
+  width: 40px;
+  height: 40px;
+  /* padding: 5px; */
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  /* color: white; */
+  color: black;
 }
 .lang .langone {
   margin-bottom: 15px;
@@ -140,6 +187,22 @@ body {
   display: flex;
   text-align: center;
   gap: 10px;
+}
+.int .intone h2 {
+  padding-top: 10px;
+}
+.iconshapefour {
+  width: 40px;
+  height: 40px;
+  /* padding: 5px; */
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  /* color: white; */
+  color: black;
 }
 .int .inttwo {
   font-size: 1.1em;
@@ -217,8 +280,8 @@ body {
   padding: 20px;
 
   /* width: */
-  margin-left: 30px;
-  margin-right: 40px;
+  /* margin-left: 30px;
+  margin-right: 40px; */
   font-size: 20px;
 }
 .contact span {
@@ -237,8 +300,10 @@ body {
   border: 2px solid black;
   width: 50px;
   height: 50px;
-  padding: 7px;
-  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
   border-radius: 50%;
   background-color: rgb(50, 58, 77);
   color: white;
@@ -299,8 +364,10 @@ li::marker {
   border: 2px solid black;
   width: 50px;
   height: 50px;
-  padding: 5px;
-  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
   border-radius: 50%;
   background-color: rgb(50, 58, 77);
   color: white;
