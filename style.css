@@ -9,7 +9,7 @@ body {
   /* width: 100%; */
 }
 .container {
-  width: 100%;
+  width: 100vh;
   /* height: 100vh; */
 
   display: flex;
@@ -260,7 +260,7 @@ body {
 }
 .headerone p {
   font-size: 20px;
-  color: rgb(167, 201, 204);
+  color: rgb(118, 175, 181);
 }
 .headertwo p {
   font-size: 20px;
@@ -290,6 +290,8 @@ body {
   gap: 10px;
 }
 .work {
+  /* display: block; */
+
   line-height: 1.5em;
 }
 .workone {
@@ -339,13 +341,15 @@ li::marker {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(124, 124, 125);
+  color: rgb(118, 175, 181);
+  margin-top: 3px;
 }
 .text1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(124, 124, 125);
+  color: rgb(118, 175, 181);
+  margin-top: 3px;
 }
 .retail {
   margin-bottom: 30px;
@@ -354,6 +358,7 @@ li::marker {
 .retail ul {
   font-size: 20px;
 }
+
 .courseone {
   display: flex;
   gap: 10px;
